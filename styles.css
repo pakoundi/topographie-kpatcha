@@ -41,6 +41,19 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Ajustement pour le titre principal sur mobile */
+.hero-section h1 {
+    font-size: 2rem; /* Taille de police plus petite par défaut */
+    line-height: 1.2;
+}
+
+/* Ajustements pour les écrans plus grands */
+@media (min-width: 768px) {
+    .hero-section h1 {
+        font-size: 3.5rem; /* Taille normale pour les grands écrans */
+    }
+}
+
 /* Navigation */
 .navbar {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
